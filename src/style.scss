@@ -1,0 +1,14 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+html,
+body {
+    font:100% $font-stack;
+    color: $primary-color;
+    height:100%;
+}
+canvas[resize] {
+height:100%;
+width:100%;
+display:block;
+}

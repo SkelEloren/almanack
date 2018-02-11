@@ -1,0 +1,6 @@
+require('../src/style.scss');
+var circleTest = require('./app.paper.js');
+
+window.onload = function() {
+    circleTest('myCanvas');
+}
